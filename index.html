@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,700&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <h1>Number Guessing Game</h1>
+        <button class="btn header-btn">QUIT</button>
+      </div>
+      <h2>Try and Guess a random number beween 1-100</h2>
+      <div class="message">Start guessing... &#128521;</div>
+      <div class="number-container">
+        <input
+          type="number"
+          placeholder="enter your number"
+          class="input-num"
+        />
+
+        <button class="btn input-btn">SUBMIT</button>
+      </div>
+
+      <div class="content">
+        <p>Score: <span class="score">0</span></p>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
